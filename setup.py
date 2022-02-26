@@ -25,7 +25,7 @@ setuptools.setup(
     url='https://github.com/mrosol/Nonlincausality',
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
-    install_requires=['numpy', 'pandas','scipy', 'keras', 'statsmodels', 'tensorflow', 'matplotlib'],
+    install_requires=['numpy', 'pandas','scipy', 'keras', 'statsmodels', 'tensorflow-macos', 'matplotlib'],
     keywords='Granger causality neural networks nonlinear forecasting signals',
     classifiers=[
         # Trove classifiers
