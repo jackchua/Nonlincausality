@@ -19,9 +19,9 @@ Update: 13.02.2022
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as stats
-import keras
-from keras.layers import Dense, LSTM, Dropout, GRU, TimeDistributed, Flatten, Input
-from keras.models import Model
+import tensorflow.keras as keras
+from tensorflow.keras.layers import Dense, LSTM, Dropout, GRU, TimeDistributed, Flatten, Input
+from tensorflow.keras.models import Model
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.tsatools import lagmat2ds
 
