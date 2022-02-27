@@ -25,7 +25,7 @@ from keras.models import Model
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.tsatools import lagmat2ds
 
-from utils import (
+from .utils import (
     check_input,
     check_input_measure,
     prepare_data,
@@ -36,7 +36,7 @@ from utils import (
     plot_causality_over_time_part1,
     plot_causality_over_time_part2
 )
-from results import ResultsNonlincausality
+from .results import ResultsNonlincausality
 
 
 #%% Inside of the nonlincausality functions
